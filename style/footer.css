@@ -1,0 +1,113 @@
+footer {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  height: 760px;
+}
+
+#head-footer {
+  text-align: center;
+  padding: 90px 90px 0px 90px;
+  margin-bottom: 48px;
+
+  sub {
+    color: var(--purple);
+    font: var(--subtitle);
+  }
+
+  h3 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin-top: 10px;
+  }
+
+  p {
+    font: var(--text-md);
+    color: var(--gray-500);
+    margin-top: 10px;
+  }
+}
+
+#footer-links {
+  justify-items: center;
+  margin-bottom: 200px;
+}
+
+.footer-card {
+  background-color: var(--gray-300);
+  border: 2px solid var(--gray-300);
+  border-radius: 10px;
+  margin-block: 16px;
+
+  a {
+    display: flex;
+    width: 400px;
+    height: 60px;
+
+    #lin {
+      background-image: url(../assets/icons/LinkedinLogo.svg);
+      width: 28px;
+      margin: 16px 8px 16px 16px; 
+      display: inline;
+    } 
+
+    #inst {
+      background-image: url(../assets/icons/InstagramLogo.svg);
+      width: 28px;
+      margin: 16px 8px 16px 16px; 
+      display: inline;
+    } 
+
+    #git {
+      background-image: url(../assets/icons/GithubLogo.svg);
+      width: 28px;
+      margin: 16px 8px 16px 16px; 
+      display: inline;
+    } 
+
+    #em {
+      background-image: url(../assets/icons/EnvelopeSimple.svg);
+      width: 28px;
+      margin: 16px 8px 16px 16px; 
+      display: inline;
+    } 
+
+    h2 {
+      font: var(--text-md);
+      color: var(--gray-500);
+      margin: 19px 20px 18px 0px;
+      width: 100px;
+    }
+
+    span {
+      background-image: url(../assets/icons/ArrowUpRight.svg);
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      margin: 20px 20px 20px auto;
+    }
+  }
+}
+
+.footer-card:hover {
+  border: 2px solid var(--blue);
+
+  span {
+    background-image: url(../assets/icons/ArrowUpRightblue.svg);
+  }
+
+  #lin {
+    background-image: url(../assets/icons/LinkedinLogoblue.svg);
+  }
+
+  #inst {
+    background-image: url(../assets/icons/InstagramLogoblue.svg);
+  }
+
+  #git {
+    background-image: url(../assets/icons/GithubLogoblue.svg);
+  }
+
+  #em {
+    background-image: url(../assets/icons/EnvelopeSimpleblue.svg);
+  }
+}

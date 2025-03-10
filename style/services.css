@@ -17,3 +17,33 @@
     margin-top: 5px;
   }
 }
+
+#card-services {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 120px;
+
+  img {
+    margin: 20px;
+  }
+
+  h2 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-inline: 20px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    margin-inline: 20px;
+  }
+}
+
+.serv-item {
+  border: 2px solid var(--gray-200);
+  border-radius: 10px;
+  width: 280px;
+  height: 155px;
+}
